@@ -1,0 +1,6 @@
+name = "redis"
+version = "0.1.0"
+description = "Redis is an open source key-value store that functions as a data structure server."
+homepage = "https://redis.io/"
+image = "redis:6.2"
+
