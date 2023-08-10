@@ -1,0 +1,6 @@
+name = "mysql"
+version = "0.1.1"
+description = "MySQL is a widely used, open-source relational database management system (RDBMS)."
+homepage = "https://www.mysql.com/"
+image = "mysql:5.6"
+
