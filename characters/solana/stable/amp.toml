@@ -10,4 +10,4 @@ keywords = ["blockchain", "solana", "network", "runtime", "web3", "decentralized
 categories = ["blockchain"]
 
 [deploy]
-image = "solanalabs/solana:stable"
+image = "index.docker.io/solanalabs/solana:stable"
