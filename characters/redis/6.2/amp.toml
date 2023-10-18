@@ -1,6 +1,13 @@
 name = "redis"
-version = "0.1.0"
-description = "Redis is an open source key-value store that functions as a data structure server."
+version = "0.2.0"
 homepage = "https://redis.io/"
-image = "redis:6.2"
+description = "Redis is an open source key-value store that functions as a data structure server."
+repository = "https://github.com/redis/redis.git"
+documentation = "https://redis.io/docs/"
+license = "BSD-3-Clause"
 
+keywords = ["redis", "database", "nosql", "key-value", "cache", "message-broker"]
+categories = ["database", "cache", "nosql"]
+
+[deploy]
+image = "redis:6.2"
