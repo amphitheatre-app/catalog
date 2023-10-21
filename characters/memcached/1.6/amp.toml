@@ -1,0 +1,13 @@
+name = "memcached"
+version = "0.1.0"
+homepage = "https://memcached.org"
+description = "Free & open source, high-performance, distributed memory object caching system."
+repository = "https://github.com/memcached/memcached"
+documentation = "https://github.com/memcached/memcached/wiki"
+license = "BSD-3-Clause"
+
+keywords = ["memcached", "key-value", "cache"]
+categories = ["cache"]
+
+[deploy]
+image = "memcached:1.6.22"
