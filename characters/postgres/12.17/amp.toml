@@ -1,0 +1,14 @@
+name = "postgres"
+version = "0.1.0"
+homepage = "https://www.postgresql.org/"
+description = "The World's Most Advanced Open Source Relational Database"
+repository = "https://github.com/postgres/postgres"
+documentation = "https://www.postgresql.org/docs/"
+license = "Other"
+license-file = "COPYRIGHT"
+
+keywords = ["database", "RDBMS", "sql", "postgres", "PostgreSQL"]
+categories = ["database"]
+
+[deploy]
+image = "postgres:12.17"
