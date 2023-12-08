@@ -1,0 +1,13 @@
+name = "mariadb"
+version = "0.1.0"
+homepage = "https://mariadb.com/"
+description = "MariaDB Server is a high performing open source relational database, forked from MySQL."
+repository = "https://github.com/MariaDB/server"
+documentation = "https://mariadb.com/docs/"
+license = "GPL-2.0-or-later"
+
+keywords = ["database", "RDBMS", "sql", "mysql", "MariaDB"]
+categories = ["database"]
+
+[deploy]
+image = "mariadb:10.4.32"
