@@ -1,0 +1,14 @@
+name = "mongodb"
+version = "0.1.0"
+homepage = "https://www.mongodb.com/"
+description = "The MongoDB Database"
+repository = "https://github.com/mongodb/mongo"
+documentation = "https://www.mongodb.com/docs/"
+license = "SSPL-1.0"
+license-file = "LICENSE-Community.txt"
+
+keywords = ["database", "document", "nosql", "mongodb"]
+categories = ["database"]
+
+[deploy]
+image = "mongodb/mongodb-community-server:5.0-ubi8"
