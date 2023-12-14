@@ -1,0 +1,13 @@
+name = "nats"
+version = "0.1.0"
+homepage = "https://nats.io/"
+description = "NATS is an open-source, high-performance, cloud native messaging system."
+repository = "https://github.com/nats-io"
+documentation = "https://docs.nats.io/"
+license = "Apache-2.0"
+
+keywords = ["message-queue", "messaging"]
+categories = ["message-queue"]
+
+[deploy]
+image = "nats:2.0.4"
