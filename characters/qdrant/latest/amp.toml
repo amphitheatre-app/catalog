@@ -1,0 +1,13 @@
+name = "qdrant"
+version = "0.1.0"
+homepage = "https://qdrant.tech/"
+description = "Vector Database for the next generation of AI applications."
+repository = "https://github.com/qdrant/qdrant"
+documentation = "https://qdrant.tech/documentation/"
+license = "Apache-2.0"
+
+keywords = ["database", "vector-database", "search"]
+categories = ["database"]
+
+[deploy]
+image = "qdrant/qdrant:latest"
