@@ -1,0 +1,13 @@
+name = "varnish"
+version = "0.1.0"
+homepage = "https://varnish-cache.org"
+description = "Varnish Cache is a web application accelerator also known as a caching HTTP reverse proxy."
+repository = "https://github.com/varnishcache/varnish-cache"
+documentation = "https://varnish-cache.org/docs/index.html"
+license = "BSD-2-Clause"
+
+keywords = ["HTTP", "proxy-server", "web-server", "middleware"]
+categories = ["networking", "web-servers", "proxy-servers"]
+
+[deploy]
+image = "varnish:latest"
