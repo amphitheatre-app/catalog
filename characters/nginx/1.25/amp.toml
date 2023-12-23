@@ -4,7 +4,7 @@ homepage = "https://nginx.org"
 description = "nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server"
 repository = "https://github.com/nginx/nginx"
 documentation = "https://nginx.org/en/docs/"
-license = "2-clause BSD-like license"
+license = "BSD-2-Clause"
 
 keywords = ["HTTP", "proxy-server", "web-server", "middleware"]
 categories = ["networking", "web-servers", "proxy-servers"]
