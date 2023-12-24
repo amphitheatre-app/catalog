@@ -1,0 +1,13 @@
+name = "zookeeper"
+version = "0.1.0"
+homepage = "https://zookeeper.apache.org"
+description = "Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination."
+repository = "https://github.com/apache/zookeeper"
+documentation = "https://zookeeper.apache.org/doc/current/"
+license = "Apache-2.0"
+
+keywords = ["ZooKeeper", "Apache", "coordination", "distributed"]
+categories = ["coordination", "distributed"]
+
+[deploy]
+image = "zookeeper:latest"
