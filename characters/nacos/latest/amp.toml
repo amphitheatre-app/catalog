@@ -1,0 +1,13 @@
+name = "nacos"
+version = "0.1.0"
+homepage = "https://nacos.io"
+description = "An easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications."
+repository = "https://github.com/alibaba/nacos"
+documentation = "https://nacos.io/en-us/docs/v2/what-is-nacos.html"
+license = "Apache-2.0"
+
+keywords = ["connfig", "dns", "kubernetes", "microservices", "service-discovery", "spring-cloud", "configuration-management", "service-mesh", "alibaba", "dubbo", "istio", "distributed-configuration", "nacos"]
+categories = ["microservices", "service-discovery", "configuration-management", "service-mesh", "distributed-configuration"]
+
+[deploy]
+image = "nacos/nacos-server:latest"
