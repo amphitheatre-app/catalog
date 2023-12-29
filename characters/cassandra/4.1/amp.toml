@@ -1,0 +1,13 @@
+name = "cassandra"
+version = "0.1.0"
+homepage = "https://cassandra.apache.org"
+description = "Apache Cassandra is an open source NoSQL distributed database"
+repository = "https://github.com/apache/cassandra"
+documentation = "https://cassandra.apache.org/doc/"
+license = "Apache-2.0"
+
+keywords = ["database", "cassandra", "nosql", "distributed"]
+categories = ["database", "nosql"]
+
+[deploy]
+image = "cassandra:4.1"
