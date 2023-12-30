@@ -1,0 +1,14 @@
+name = "juicefs"
+version = "0.1.0"
+homepage = "https://juicefs.com"
+description = "JuiceFS is a distributed POSIX file system built on top of Redis and S3"
+repository = "https://github.com/juicedata/juicefs"
+documentation = "https://juicefs.com/docs/community/introduction/"
+license = "Apache-2.0"
+
+keywords = ["juicefs", "distributed-systems", "storage", "filesystem", "bigdata", "s3", "posix", "hdfs", "cloud-native", "object-storage"]
+categories = ["distributed-storage", "filesystem"]
+
+[deploy]
+image = "juicedata/mount:ce-v1.1.0"
+command = "juicefs format sqlite3://my-jfs.db jfs-test && juicefs gateway sqlite3://my-jfs.db 0.0.0.0:9000"
