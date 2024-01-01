@@ -1,0 +1,13 @@
+name = "greptimedb"
+version = "0.1.0"
+homepage = "https://greptime.com/"
+description = "GreptimeDB is an open-source, cloud-native time series database which also has powerful analytical features"
+repository = "https://github.com/GreptimeTeam/greptimedb"
+documentation = "https://docs.greptime.com/"
+license = "Apache-2.0"
+
+keywords = ["database", "analytics", "sql", "time-series", "TSDB"]
+categories = ["database"]
+
+[deploy]
+image = "greptime/greptimedb:v0.5.0"
