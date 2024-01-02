@@ -1,0 +1,13 @@
+name = "foundationdb"
+version = "0.1.0"
+homepage = "https://www.foundationdb.org"
+description = "FoundationDB is a distributed database providing ACID transactions. "
+repository = "https://github.com/apple/foundationdb"
+documentation = "https://apple.github.io/foundationdb/"
+license = "Apache-2.0"
+
+keywords = ["database", "foundationdb", "key-value-store", "distributed-database", "transactional", "acid"]
+categories = ["database", "distributed-database"]
+
+[deploy]
+image = "foundationdb/foundationdb"
