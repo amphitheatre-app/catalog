@@ -1,0 +1,13 @@
+name = "featurebase"
+version = "0.1.0"
+homepage = "https://www.featurebase.com"
+description = "FeatureBase is an in-memory, analytics and automation engine with SQL support, vector storage, and blazingly fast point-lookups for AI workloads."
+repository = "https://github.com/FeatureBaseDB/featurebase"
+documentation = "https://docs.featurebase.com/"
+license = "Apache-2.0"
+
+keywords = ["database", "analytics", "sql", "vector", "ai", "ml", "in-memory", "data-analytics"]
+categories = ["database", "analytics", "ai"]
+
+[deploy]
+image = "featurebasedb/featurebase:3.35.0"
