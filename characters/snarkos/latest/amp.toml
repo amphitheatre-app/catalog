@@ -1,0 +1,13 @@
+name = "snarkos"
+version = "0.1.0"
+homepage = "http://snarkos.org/"
+description = "A Decentralized Operating System for ZK Applications"
+repository = "https://github.com/AleoHQ/snarkOS.git"
+documentation = "https://developer.aleo.org"
+license = "Apache-2.0"
+
+keywords = ["blockchain", "snarkOS", "ZK", "platform", "runtime", "web3", "decentralized"]
+categories = ["blockchain"]
+
+[deploy]
+image = "aleohq/snarkos:latest"
