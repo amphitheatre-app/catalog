@@ -1,0 +1,13 @@
+name = "leo"
+version = "0.1.0"
+homepage = "https://leo-lang.org/"
+description = "Leo is a functional, statically-typed programming language built for writing private applications."
+repository = "https://github.com/AleoHQ/leo.git"
+documentation = "https://developer.aleo.org/leo"
+license = "Apache-2.0"
+
+keywords = ["blockchain", "Leo", "Aleo", "snarkOS", "snarkVM", "ZK", "network", "runtime", "web3", "decentralized"]
+categories = ["blockchain"]
+
+[deploy]
+image = "aleohq/snarkos:latest"
