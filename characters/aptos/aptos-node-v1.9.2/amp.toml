@@ -1,0 +1,13 @@
+name = "aptos"
+version = "0.1.0"
+homepage = "https://aptoslabs.com/"
+description = "From giant enterprises to teams of one, Aptos is the next generation L1 blockchain where anyone can build the future of Web 3."
+repository = "https://github.com/aptos-labs/aptos-core.git"
+documentation = "https://aptos.dev/"
+license = "Apache-2.0"
+
+keywords = ["blockchain", "Aptos", "L1", "runtime", "web3", "decentralized"]
+categories = ["blockchain"]
+
+[deploy]
+image = "aptoslabs/validator:aptos-node-v1.9.2"
