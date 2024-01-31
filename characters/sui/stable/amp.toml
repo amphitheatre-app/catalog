@@ -1,0 +1,13 @@
+name = "sui"
+version = "0.1.0"
+homepage = "https://sui.io/"
+description = "Sui delivers the benefits of Web3 with the ease of Web2."
+repository = "https://github.com/MystenLabs/sui.git"
+documentation = "https://docs.sui.io/"
+license = "Apache-2.0"
+
+keywords = ["blockchain", "Sui", "L1", "runtime", "web3", "decentralized"]
+categories = ["blockchain"]
+
+[deploy]
+image = "mysten/sui-node:stable"
