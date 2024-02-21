@@ -1,0 +1,13 @@
+name = "starknet"
+version = "0.6.0"
+homepage = "https://www.starknet.io/"
+description = "Starknet delivers the benefits of Web3 with the ease of Web2."
+repository = "https://github.com/0xSpaceShard/starknet-devnet-rs.git"
+documentation = "https://docs.starknet.io/"
+license = "Apache-2.0"
+
+keywords = ["blockchain", "Starknet", "L2","ZK", "runtime", "web3", "decentralized"]
+categories = ["blockchain"]
+
+[deploy]
+image = "shardlabs/starknet-devnet-rs:latest"
