@@ -1,0 +1,13 @@
+name = "surrealdb"
+version = "0.1.0"
+homepage = "https://surrealdb.com/"
+description = "The ultimate multi-model database"
+repository = "https://github.com/surrealdb/surrealdb"
+documentation = "https://docs.surrealdb.com"
+license = "Apache-2.0"
+
+keywords = ["database", "sql", "nosql", "graph", "document", "key-value", "multi-model"]
+categories = ["database", "distributed-database"]
+
+[deploy]
+image = "surrealdb/surrealdb:v1.1.1"
