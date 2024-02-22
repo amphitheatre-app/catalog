@@ -1,0 +1,13 @@
+name = "milvus"
+version = "0.1.0"
+homepage = "https://milvus.io/"
+description = "A cloud-native vector database, storage for next generation AI applications"
+repository = "https://github.com/milvus-io/milvus"
+documentation = "https://milvus.io/docs"
+license = "Apache-2.0"
+
+keywords = ["database", "vector-database", "search", "distributed", "cloud-native", "embedding-database", "embedding-store", "vector-store"]
+categories = ["database"]
+
+[deploy]
+image = "milvusdb/milvus:latest"
