@@ -1,0 +1,21 @@
+name = "minio"
+version = "0.1.0"
+homepage = "https://min.io"
+description = "MinIO is a high-performance, S3 compatible object storage"
+repository = "https://github.com/minio/minio"
+documentation = "https://min.io/docs/"
+license = "AGPL-3.0"
+
+keywords = ["distributed-systems", "storage", "filesystem", "s3", "cloud-native", "object-storage"]
+categories = ["distributed-storage", "filesystem"]
+
+[deploy]
+image = "minio/minio:latest"
+command = ["server"]
+
+[deploy.args]
+console-address = ":9001"
+
+[deploy.env]
+MINIO_ROOT_USER = "minioadmin"
+MINIO_ROOT_PASSWORD = "minioadmin"
