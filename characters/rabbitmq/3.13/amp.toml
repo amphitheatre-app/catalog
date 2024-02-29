@@ -1,0 +1,13 @@
+name = "rabbitmq"
+version = "0.1.0"
+homepage = "https://www.rabbitmq.com/"
+description = "RabbitMQ is the most widely deployed open source message broker"
+repository = "https://github.com/rabbitmq/rabbitmq-server"
+documentation = "https://www.rabbitmq.com/docs/documentation"
+license = "Apache-2.0"
+
+keywords = ["message-queue", "messaging", "mqtt", "streaming", "amqp", "streams", "rabbitmq", "message-broker"]
+categories = ["message-queue"]
+
+[deploy]
+image = "rabbitmq:3.13-management"
