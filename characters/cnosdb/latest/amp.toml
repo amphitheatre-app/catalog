@@ -1,0 +1,14 @@
+name = "cnosdb"
+version = "0.1.0"
+homepage = "https://www.cnosdb.com/"
+description = "A cloud-native open source distributed time series database with high performance, high compression ratio and high availability."
+repository = "https://github.com/cnosdb/cnosdb"
+documentation = "https://docs.cnosdb.com/en/docs/"
+license = "AGPL-3.0"
+
+keywords = ["database", "time-series", "distributed-database", "cloud-native"]
+categories = ["database"]
+
+[deploy]
+image = "cnosdb/cnosdb:community-latest"
+command = ["cnosdb", "run", "-M", "singleton"]
