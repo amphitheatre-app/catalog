@@ -1,0 +1,14 @@
+name = "rethinkdb"
+version = "0.1.0"
+homepage = "https://rethinkdb.com/"
+description = "RethinkDB is an open-source, document database that makes it easy to build and scale realtime apps."
+repository = "https://github.com/rethinkdb/rethinkdb"
+documentation = "https://rethinkdb.com/docs"
+license = "Apache-2.0"
+license-file = "COPYRIGHT"
+
+keywords = ["database", "document", "nosql", "JSON", "realtime"]
+categories = ["database"]
+
+[deploy]
+image = "rethinkdb:latest"
