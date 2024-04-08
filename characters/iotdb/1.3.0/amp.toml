@@ -1,0 +1,13 @@
+name = "iotdb"
+version = "0.1.0"
+homepage = "https://iotdb.apache.org/"
+description = "An IoT native database with high performance for data management and analysis, deployable on the edge and the cloud"
+repository = "https://github.com/apache/iotdb"
+documentation = "https://iotdb.apache.org/UserGuide/Master/QuickStart/QuickStart.html"
+license = "Apache-2.0"
+
+keywords = ["database", "analytics", "time-series", "TSDB", "iot", "nosql"]
+categories = ["database"]
+
+[deploy]
+image = "apache/iotdb:1.3.0-standalone"
