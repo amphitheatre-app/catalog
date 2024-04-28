@@ -1,0 +1,13 @@
+name = "mysql"
+version = "0.1.0"
+homepage = "https://www.mysql.com/"
+description = "MySQL is a widely used, open-source relational database management system (RDBMS)."
+repository = "https://github.com/mysql/mysql-server"
+documentation = "https://dev.mysql.com/doc/"
+license = "GPL-2.0-or-later"
+
+keywords = ["database", "RDBMS", "sql", "mysql"]
+categories = ["database"]
+
+[deploy]
+image = "mysql:latest"
