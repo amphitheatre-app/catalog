@@ -1,0 +1,13 @@
+name = "meilisearch"
+version = "0.1.0"
+homepage = "https://www.meilisearch.com/"
+description = "A lightning-fast search API that fits effortlessly into your apps, websites, and workflow"
+repository = "https://github.com/meilisearch/meilisearch"
+documentation = "https://www.meilisearch.com/docs"
+license = "MIT"
+
+keywords = ["search", "search-engine", "vectors"]
+categories = ["search"]
+
+[deploy]
+image = "getmeili/meilisearch:v1.8"
