@@ -1,8 +1,8 @@
 name = "xline"
-version = "0.1.0"
+version = "0.1.1"
 homepage = "https://xline.cloud"
 description = "A High-Performance Geo-distributed Metadata Management System"
-repository = "https://github.com/datenlord/xline"
+repository = "https://github.com/xline-kv/Xline"
 documentation = "https://datenlord.github.io/xline-home/#/docs/Get-Started"
 license = "Apache-2.0"
 
