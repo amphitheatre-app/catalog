@@ -1,0 +1,13 @@
+name = "xtdb"
+version = "0.1.0"
+homepage = "https://xtdb.com/"
+description = "An immutable database for application development and time-travel data compliance, with SQL and XTQL."
+repository = "https://github.com/xtdb/xtdb"
+documentation = "https://docs.xtdb.com/index.html"
+license = "MPL-2.0"
+
+keywords = ["database", "sql", "document-database", "immutable-store", "xtdb"]
+categories = ["database"]
+
+[deploy]
+image = "ghcr.io/xtdb/xtdb-standalone-ea"
