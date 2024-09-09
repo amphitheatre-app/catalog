@@ -1,0 +1,13 @@
+name = "tengine"
+version = "0.1.0"
+homepage = "https://tengine.taobao.org"
+description = "Tengine is a web server originated by Taobao, It is based on the Nginx HTTP server and has many advanced features."
+repository = "https://github.com/alibaba/tengine"
+documentation = "https://tengine.taobao.org/documentation.html"
+license = "BSD-2-Clause"
+
+keywords = ["HTTP", "proxy-server", "web-server", "middleware"]
+categories = ["networking", "web-servers", "proxy-servers"]
+
+[deploy]
+image = "axizdkr/tengine:3.1.0"
