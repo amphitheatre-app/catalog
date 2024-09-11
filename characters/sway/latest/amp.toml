@@ -1,0 +1,13 @@
+name = "sway"
+version = "0.1.0"
+homepage = "https://fuel.network/"
+description = "Fuel is an operating system purpose-built for Ethereum rollups, designed to help developers build decentralized economies at scale."
+repository = "https://github.com/FuelLabs/sway.git"
+documentation = "https://docs.fuel.network/"
+license = "Apache-2.0"
+
+keywords = ["blockchain", "Sway", "Rollups","Ethereum", "runtime", "web3", "decentralized"]
+categories = ["blockchain"]
+
+[deploy]
+image = "fuellabs/sway:latest"
