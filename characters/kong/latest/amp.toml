@@ -1,0 +1,13 @@
+name = "kong"
+version = "0.1.0"
+homepage = "https://konghq.com/"
+description = "The Cloud-Native API Gateway for APIs and Microservices"
+repository = "https://github.com/Kong/kong"
+documentation = "https://docs.konghq.com/"
+license = "Apache-2.0"
+
+keywords = ["HTTP", "proxy-server", "web-server", "middleware", "api-management", "api-gateway", "cloud-native"]
+categories = ["networking", "web-servers", "proxy-servers", "api-gateway"]
+
+[deploy]
+image = "kong:latest"
