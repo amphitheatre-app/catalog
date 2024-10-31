@@ -1,0 +1,13 @@
+name = "openresty"
+version = "0.1.0"
+homepage = "https://openresty.org"
+description = "High Performance Web Platform Based on Nginx and LuaJIT"
+repository = "https://github.com/openresty/openresty"
+documentation = "https://openresty.org"
+license-file = "COPYRIGHT"
+
+keywords = ["HTTP", "proxy-server", "web-server", "middleware"]
+categories = ["networking", "web-servers", "proxy-servers"]
+
+[deploy]
+image = "openresty/openresty:1.25.3.2-buster"
